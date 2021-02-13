@@ -21,13 +21,16 @@ body {
     font-family: 'Spartan', sans-serif;
     font-size: 15px; 
 }
+h1{
+    font-weight: 700;
+}
 
 .section-one{
     background-image: url(../images/bg-pattern-top-mobile.svg);
     background-repeat: no-repeat;
 }
 .container{
-    width: 90%;
+    width: 85%;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -38,7 +41,6 @@ body {
 .intro .title-intro{
     font-size: 1.9rem;
     color:var(--primary-color);
-    font-weight: 700;
 }
 .intro .info{
     padding: 1.5rem 0;
@@ -64,3 +66,38 @@ body {
 }
 
 /* section two */
+.section-two{
+    margin-top: 3rem;
+}
+.section-two .card{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 2rem;
+    font-size: .8rem;
+    color:var(--light-magenta);
+    line-height: 1.3rem;
+}
+.card .header-card{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.card .header-card img{
+    width: 40px;
+    border-radius: 50%;
+}
+.card .header-card .title-card{
+    margin-left:2rem;
+}
+.title-card .name-card{
+    font-weight: 700;
+    color:var(--white);
+}
+.title-card .verified{
+    font-weight: 400;
+    color:var(--secundary-color);
+}
+.attribution{
+    margin-top: 4rem;
+}
